@@ -78,8 +78,8 @@
         padding-right: 1rem;
         transform: translateY(-100%);
         @include transition-ease;
-    }
-}
+    
+
 
         &.open {
             transform: translateY(0);
@@ -111,7 +111,7 @@
 
         }
     }
-}
+
 
 // @for $i from 1 through 4 {
 //     .menu-nav_item:nth-child(#{$i}){
