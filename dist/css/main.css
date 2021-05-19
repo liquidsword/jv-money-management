@@ -6,12 +6,11 @@
 
 .home {
   height: 100%;
-  padding-top: 45vh;
+  padding-top: 30vh;
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../img/02.jpg") center top;
-  background-size: cover;
+  background: whitesmoke;
 }
 
 .home_name {
@@ -22,7 +21,7 @@
 }
 
 .home_name--last {
-  color: #4b4949;
+  color: #ece7e7;
   font-weight: 700;
 }
 
@@ -122,12 +121,12 @@
 }
 
 .menu-nav_item.active > a {
-  color: #4b4949;
+  color: #ece7e7;
 }
 
 .menu-nav_link {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
   padding: 2rem 0;
   font-weight: 300;
@@ -135,12 +134,35 @@
 }
 
 .menu-nav_link:hover {
-  color: #4b4949;
+  color: #ece7e7;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
+  .nav .menu-nav {
+    display: block;
+    transform: translateY(0);
+    height: 100%;
+    background: transparent;
+    text-align: right;
+  }
+  .nav .menu-nav_item {
+    display: inline;
+    padding-right: .5rem;
+  }
+  .nav .menu-nav_link {
+    font-size: 1rem;
+  }
 }
 
 body {
   background: #50d3a7;
-  color: set-text-color(#50d3a7);
+  color: set-text-color(#ece7e7);
   height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;

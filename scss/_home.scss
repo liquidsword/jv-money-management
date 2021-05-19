@@ -1,18 +1,18 @@
 .home {
     height: 100%;
-    padding-top: 45vh;
+    padding-top: 30vh;
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: 
+    background: whitesmoke;
         // linear-gradient(
         //     to right,
         //     rgba($primary-color, 0.9),
         //     rgba($primary-color, 0.3)
         // ),
     
-    url('../img/02.jpg') center top;
-    background-size: cover;
+    // // url('../img/02.jpg') center top;
+    // // background-size: cover;
 
     &_name {
         font-size: 5rem;
