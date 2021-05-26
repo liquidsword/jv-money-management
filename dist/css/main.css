@@ -173,6 +173,8 @@ header {
   z-index: 2;
   width: 100%;
   padding: 1rem;
+  background-color: whitesmoke;
+  margin: 75px auto;
 }
 
 main {
